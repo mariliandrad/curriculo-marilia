@@ -1,128 +1,147 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 
   <!--Título navegador-->
-  <title>Currículo - Marília Andrade!</title>
+  <title>Currículo - Marília Andrade</title>
 </head>
 
-<body>
-  <header>
-    <!-- Imagem -->
-    <img
-      src="https://media-exp1.licdn.com/dms/image/C4E03AQHTzhwnJhYwSA/profile-displayphoto-shrink_200_200/0?e=1597276800&v=beta&t=YI9Kj-WtHR8tJ5OJKxYjkVtLIc0BqBIqpHnxXa-lgCc"
-      alt="Foto Marília Andrade" width="200" />
+<body class="body">
 
-    <!-- Título -->
-    <h1>Marília Gomes Andrade</h1>
-    <p>Front-end Developer</p>
-  </header>
+  <main class="main-profile">
+    <header class="header">
+      <!-- Imagem -->
+      <img class="img-profile"
+        src="https://media-exp1.licdn.com/dms/image/C4E03AQHTzhwnJhYwSA/profile-displayphoto-shrink_200_200/0?e=1597276800&v=beta&t=YI9Kj-WtHR8tJ5OJKxYjkVtLIc0BqBIqpHnxXa-lgCc"
+        alt="Foto Marília Andrade" width="200" />
 
-  <main>
+      <!-- Título -->
+      <div>
+        <h1 class="title-profile">Marília Gomes Andrade</h1>
+        <p class="description-profile">Front-end Developer</p>
+      </div>
+    </header>
     <!-- Sobre Mim -->
     <section>
-      <h2>Profile</h2>
-      <p><em>Arquiteta, Designer e futura Desenvolvedora Front-End</em></p>
-    </section>
+      <div>
+        <h2>Profile</h2>
+        <p>Arquiteta, Designer e futura Desenvolvedora Front-End.</p>
+      </div>
 
-    <!-- Contato -->
+      <!-- Educação -->
+      <section>
+        <h2>Educação</h2>
+        <ul>
+
+          <!-- Faculdade -->
+          <li>
+            <h3>Arquitetura e Urbanismo - UNINASSAU - 2014-2018</h3>
+            <p>Ensino superior completo em Arquitetura e Urbanismo.</p>
+          </li>
+
+          <!-- Curso Técnico -->
+          <li>
+            <h3>ETE Professor Agamemnon Magalhães - ETEPAM - 2011-2013</h3>
+            <p>Ensino médio completo e formação técnica em Design de Interiores.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Experiências -->
+      <section>
+        <h2>Experiência Profissional</h2>
+        <ul>
+
+          <!-- Amorito -->
+          <li>
+            <h3>Empresa: Amorim Sorvetes LTDA - 2019-Atualmente</h3>
+            <p>Função: Analista de Marketing Júnior</p>
+            <p>Atividades: Gerenciamento e desenvolvimento de conteúdo para
+              loja virtual para a promoção dos produtos e para as mídias sociais;
+            </p>
+            <p>Atendimento e prospecção de clientes através das mídias sociais.
+            </p>
+          </li>
+
+          <!-- ABCP -->
+          <li>
+            <h3>Empresa: ABCP - 2018-2019</h3>
+            <p>Função: Arquiteta Prestadora de Serviços</p>
+            <p>Atividades: Coordenação, criação e compatibilização de projetos
+              arquitetônicos;
+            </p>
+            <p>Auxiliar na prática de ações relacionadas a marketing.</p>
+          </li>
+
+          <!-- Itaoca -->
+          <li>
+            <h3>Empresa: Itaoca Engenharia - 2018</h3>
+            <p>Função: Estagiária de Arquitetura</p>
+            <p>Atividades: Auxiliar na compatibilização de projetos;</p>
+            <p>Acompanhamento de serviços em obra; Levantamento de áreas em
+              campo para modelagem de ambientes; Participação na organização
+              visual de estandes para eventos (Semana Imobiliária e Feirão da
+              Caixa); Auxiliar na prática de ações relacionadas a marketing.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Projetos -->
+      <section>
+        <h2>Projetos</h2>
+        <ul>
+          <!--Meu Currículo-->
+          <li>
+            <a href="https://curriculo-mari.glitch.me/" target="_blank">Meu Currículo</a>
+          </li>
+
+          <!--Projetos de Design-->
+          <li>
+            <a href="https://instagram.com/travessodesign?igshid=ygm4bd3076dz" target="_blank">Travesso Design</a>
+          </li>
+        </ul>
+      </section>
+    </section>
+  </main>
+
+  <!-- Contato -->
+  <aside class="aside-profile">
     <section>
       <h2>Contato</h2>
       <p>Rua Carlos Coimbra, 101, Camaragibe/PE</p>
       <p>(81) 9 8988-8586</p>
       <p>marilia.andrade12@gmail.com</p>
-      <ul>
+      <ul class="icons">
         <li>
           <a href="https://www.instagram.com/mariliandrad/" target="_blank">
-            <img src="https://cdn.glitch.com/f6796d22-20b5-40c3-a5c9-4ddca0c5509f%2Finstagram.svg" alt="Icon Instagram"
-              width="25" />
+            <img src="img/instagram.svg" alt="Icon Instagram" width="25" />
           </a>
         </li>
         <li>
           <a href="https://github.com/mariliandrad" target="_blank">
-            <img src="https://cdn.glitch.com/f6796d22-20b5-40c3-a5c9-4ddca0c5509f%2Fthumbnails%2Fgithub-image.svg"
-              alt="Icon GitHub" width="25" />
+            <img src="img/github-image.svg" alt="Icon GitHub" width="25" />
           </a>
         </li>
         <li>
           <a href="https://www.linkedin.com/in/mariliandrad/" target="_blank">
-            <img
-              src="https://cdn.glitch.com/f6796d22-20b5-40c3-a5c9-4ddca0c5509f%2Fthumbnails%2F77d01884-7f1a-4597-b564-e8115fe0d93c.image.png"
-              alt="Icon Linkedin" width="25" />
+            <img src="img/linkedin.svg" alt="Icon Linkedin" width="25" />
           </a>
-        </li>
-      </ul>
-    </section>
-
-    <!-- Educação -->
-    <section>
-      <h2>Educação</h2>
-      <ul>
-
-        <!-- Faculdade -->
-        <li>
-          <h4>Arquitetura e Urbanismo - UNINASSAU - 2014-2018</h4>
-          <p>Ensino superior completo em Arquitetura e Urbanismo.</p>
-        </li>
-
-        <!-- Curso Técnico -->
-        <li>
-          <h4>ETE Professor Agamemnon Magalhães - ETEPAM - 2011-2013</h4>
-          <p>Ensino médio completo e formação técnica em Design de Interiores.
-          </p>
-        </li>
-      </ul>
-    </section>
-
-    <!-- Experiências -->
-    <section>
-      <h2>Experiência Profissional</h2>
-      <ul>
-
-        <!-- Amorito -->
-        <li>
-          <h4>Empresa: Amorim Sorvetes LTDA - 2019-Atualmente</h4>
-          <p>Função: Analista de Marketing Júnior</p>
-          <p>Atividades: Gerenciamento e desenvolvimento de conteúdo para
-            loja virtual para a promoção dos produtos e para as mídias sociais;
-          </p>
-          <p>Atendimento e prospecção de clientes através das mídias sociais.
-          </p>
-        </li>
-
-        <!-- ABCP -->
-        <li>
-          <h4>Empresa: ABCP - 2018-2019</h4>
-          <p>Função: Arquiteta Prestadora de Serviços</p>
-          <p>Atividades: Coordenação, criação e compatibilização de projetos
-            arquitetônicos;
-          </p>
-          <p>Auxiliar na prática de ações relacionadas a marketing.</p>
-        </li>
-
-        <!-- Itaoca -->
-        <li>
-          <h4>Empresa: Itaoca Engenharia - 2018-2018</h4>
-          <p>Função: Estagiária de Arquitetura</p>
-          <p>Atividades: Auxiliar na compatibilização de projetos;</p>
-          <p>Acompanhamento de serviços em obra;Levantamento de áreas em
-            campo para modelagem de ambientes; Participação na organização
-            visual de estandes para eventos (Semana Imobiliária e Feirão da
-            Caixa); Auxiliar na prática de ações relacionadas a marketing.
-          </p>
         </li>
       </ul>
     </section>
 
     <!-- Conhecimentos -->
     <section>
-
       <h2>Conhecimentos</h2>
-      <ul>
+      <ul class="underline">
         <li>Corel Draw</li>
         <li>Photoshop</li>
         <li>HTML</li>
@@ -132,23 +151,7 @@
         <li>SketchUP</li>
       </ul>
     </section>
-
-    <!-- Projetos -->
-    <section>
-      <h2>Projetos</h2>
-      <ul>
-        <!--Meu Currículo-->
-        <li>
-          <a href="https://curriculo-mari.glitch.me/" target="_blank">Meu Currículo</a>
-        </li>
-
-        <!--Projetos de Design-->
-        <li>
-          <a href="https://instagram.com/travessodesign?igshid=ygm4bd3076dz" target="_blank">Travesso Design</a>
-        </li>
-      </ul>
-    </section>
-  </main>
+  </aside>
 </body>
 
 </html>
