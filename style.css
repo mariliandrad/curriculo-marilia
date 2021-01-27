@@ -32,10 +32,15 @@
 }
 
 .main-profile section,
-.aside-profile section {
+.aside-profile section,
+a {
   margin-top: 36px;
+  text-decoration: none;
 }
 
+.main-profile a {
+  cursor: pointer;
+}
 .img-profile {
   width: 55px;
   border-radius: 50%;
